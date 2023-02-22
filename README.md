@@ -99,10 +99,10 @@ Inside `../style/_incl/_func.scss` file mixins `marginSet()` and `paddingSet()` 
 - to use marging classes simply call mixin `@include marginSet();` and `@include paddingSet();` for padding classes
 
 **Note:** 
-`t` : stands for **top**
-`r` : stands for **right**
-`b` : stands for **bottom**
-`l` : stands for **left**
+- `t` : stands for **top**
+- `r` : stands for **right**
+- `b` : stands for **bottom**
+- `l` : stands for **left**
 
 The dimension used are `rem` and `percentage`: _sks-rem-m_ when applying **_xx rem_** and _sks-m_ when using **_xx %_** percentage.
 
@@ -177,14 +177,14 @@ when compiled the above code will generate class `my-custom-top-shadow` which ca
 
 **Available Mixins for Shadow**
 
-`shadowTop()` for -shadow on top of element/block
-`shadowRight()` for -shadow on right of element/block
-`shadowBottom()` for -shadow on bottom of element/block
-`shadowLeft()` for -shadow on left of element/block
+- `shadowTop()` for -shadow on top of element/block
+- `shadowRight()` for -shadow on right of element/block
+- `shadowBottom()` for -shadow on bottom of element/block
+- `shadowLeft()` for -shadow on left of element/block
 ---------------------------
-`shadow()` for -shadow around of element/block
-`shadow1()` for -shadow at the `bottom` while floating `right`
-`shadow2()` for -shadow at the `bottom` while floating `left`
+- `shadow()` for -shadow around of element/block
+- `shadow1()` for -shadow at the `bottom` while floating `right`
+- `shadow2()` for -shadow at the `bottom` while floating `left`
 ---------------------------
 
 To **learn** more about [`mixing`](https://sass-lang.com/documentation/at-rules/mixin) and [`function`](https://sass-lang.com/documentation/at-rules/function) revisit `sass documentation`
