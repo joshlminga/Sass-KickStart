@@ -1,0 +1,15 @@
+// Include Color
+@import "_incl/colors";
+// Include
+@import "_incl/incl";
+// Pre Functions
+@import "_incl/func";
+
+/**
+** Todo:
+** 1: Vormia Includes
+*/
+@include colorsCode();
+@include marginSet();
+@include paddingSet();
+@include required();
